@@ -1,0 +1,71 @@
+/* revision */
+p{
+    display:block;
+    width:500px;
+    height: 100px;
+    padding: 30px;
+    margin: 30px;
+}
+/* .div{
+    background-color: red;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 20px;
+
+    width:24%;
+    display: inline-block;
+    border:5px solid yellow;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 5px;
+} */
+/* .div2{
+    background-color: blue;
+}
+.div3{
+    background-color: black;
+}
+.div4{
+    background-color:green;
+} */
+
+/* backgroundImage */
+.backgroundImage{
+    border:5px dotted red;
+    height: 2000px;
+    background-image: url("./assets/download.jpg");
+
+    /* background-repeat: no-repeat;
+    background-repeat:repeat-x;
+    background-repeat:repeat-y;
+    background-repeat:repeat; */
+
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-size: 100px; */
+    background-repeat:no-repeat;
+    /* background-position: 50% 50%; */
+    background-attachment: fixed;
+}
+
+/* float  */
+body{
+    margin: 0px;
+}
+.div{
+    background-color: red;
+    width:15%;
+    float: left;
+}
+.div2{
+    background-color: blue;
+}
+.div3{
+    background-color: black;
+}
+.div4{
+    background-color:green;
+}
+.clear{
+    clear: both;
+}

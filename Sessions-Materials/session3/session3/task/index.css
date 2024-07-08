@@ -1,0 +1,30 @@
+#title{
+    color:navy;
+    border-bottom: 5px solid yellow;
+    width: fit-content;
+}
+.product{
+    border:3px solid navy;
+    border-radius: 5px;
+    width:50%;
+    text-align: center;
+}
+
+body{
+    background-color:rgba(128, 128, 128, 0.502);
+
+}
+.footer{
+    background-color: gray;
+}
+.footer p{
+ font-size: x-large;
+ text-align: center;
+}
+img{
+    width:50%;
+    height:30%
+}
+.old-price{
+    text-decoration:overline;
+}

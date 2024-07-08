@@ -1,0 +1,95 @@
+/* tag name */
+p{
+    color:red
+}
+/* class */
+.blue{
+    color: blue;
+}
+/* id */
+#green{
+    color:green
+}
+/* multi selection */
+.one, .two, .three{
+    font-size: x-large;
+}
+/* all elements */
+*{
+    /* background-color: red; */
+    font-size: xx-large;
+}
+/* parent and child */
+.parent{
+    background-color: blue;
+}
+.parent h2{
+    color: red;
+}
+
+/* margin & padding */
+.margin{
+    background-color: aqua;
+    width:300px;
+    margin-left: 100px;
+    /* margin-top: 500px; */
+}
+.p1{
+    /* margin-bottom: 100px; */
+    border: 1px solid red;
+}
+.p2{
+    border:1px solid blue
+}
+.padding{
+    background-color: brown;
+    width: 400px;
+    margin-left: 100px;
+    padding-left: 100px;
+    padding: 100px;
+
+
+}
+.padding p{
+    color: wheat;
+
+}
+
+/* inline & block elements */
+.one{
+    border: 1px solid green;
+    background-color: blue;
+}
+
+/* block  */
+/* div */
+/* p */
+h1{
+    background-color: aqua;
+}
+/* inline */
+/* span{
+    border:30px solid black
+} */
+a{
+    border:3px solid green
+}
+img{
+    width:200px
+}
+
+#span1{
+    border:1px solid blue;
+    width:500px;
+    height: 200px;
+    padding: 10px;
+    margin: 30px;
+}
+
+#par1{
+    border:1px solid red;
+    width: 300px;
+    /* height:300px */
+    padding: 10px;
+    margin: 60px;
+}

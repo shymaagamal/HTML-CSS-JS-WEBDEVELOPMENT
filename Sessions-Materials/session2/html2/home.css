@@ -1,0 +1,12 @@
+p{
+    color:red
+}
+#special{
+    color:blue;
+    font-size:xx-large ;
+    font-weight: bolder;
+    font-style:oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

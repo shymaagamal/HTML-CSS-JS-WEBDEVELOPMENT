@@ -1,0 +1,35 @@
+.movie{
+    display: flex;
+    width: 20%;
+    height: 300px;
+    flex-wrap: nowrap;    
+    overflow: hidden;
+    position: relative;
+}
+.parag{
+    position: absolute;
+    bottom: -100%; /* Initially positioned off-screen */
+    text-align: center;
+    color: aquamarine;
+    opacity: 0; /* Initially hidden */
+    transition: bottom 5s ease, opacity 5s ease; /* Smooth transition */
+}
+.poster{
+    width: 100%;
+    height: 100%;
+    
+    transition: transform 3s ease-in-out;
+}
+.movie:hover .parag {
+    bottom: 0; /* Move to visible position */
+    opacity: 1; /* Make the text fully visible */
+}
+
+.movie:not(:hover) .parag {
+    bottom: -100%; /* Move back down */
+    opacity: 0; /* Hide text */
+}
+.movie:hover .poster{
+    transform: scale(1.5);   
+    
+}

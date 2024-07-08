@@ -1,0 +1,115 @@
+.nav
+{
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    gap: 100px; 
+
+}
+.scroll-down
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.scroll-down-cover
+{
+    width: 100%;
+    height: 100%;
+}
+.setting
+{
+
+    position: fixed;
+    top: 50%;
+    right: 0px;
+}
+.setting img{
+    width: 40px;
+    cursor: pointer;
+}
+.options
+{
+    display: none;
+    
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 100%; /* Position it to the left of the setting icon */
+}
+.setting:hover .options
+{
+    display: flex;
+    flex-direction: column;
+}
+.motivational-container{
+    width: 100%;
+    height: 250vh; 
+    border: 3px green solid;
+    position: relative;
+    display: flex;
+}
+.quote-img 
+{
+    width: 40%;
+    height: 100%; 
+    
+}
+.quote-img img
+{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.text-image-box
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60%;
+    align-items: center; 
+}
+.text-image-box img{
+    width: 100%;
+}
+
+
+.success-container
+{
+    width: 100%;
+    height: 280vh; 
+    border: 3px green solid;
+    position: relative;
+    display: flex;
+}
+.success-txt-img
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60%;
+}
+.success-txt-img img
+{
+    width: 100%;
+
+}
+.successful
+{
+    width: 40%;
+    height: 100%; 
+}
+
+.successful img{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.thank-you img
+{
+    width: 100%;
+}

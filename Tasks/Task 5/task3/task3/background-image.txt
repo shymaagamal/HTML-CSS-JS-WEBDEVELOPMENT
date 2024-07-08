@@ -1,0 +1,1 @@
+ background-image: url("https://s3.amazonaws.com/js30-cdn/snowy-mountains-kracked.jpg");
