@@ -1,0 +1,26 @@
+body{
+    margin-top: 12%;
+}
+.LOGO_IMG{
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    border-radius: 50%;
+    border: 9px double #dce4e8;
+    overflow: hidden;
+}
+img{
+    padding-top: 30px;
+    width: 100%;
+
+}
+.progress{
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+progress {
+    height: 5px;
+    width: 300px;
+ }

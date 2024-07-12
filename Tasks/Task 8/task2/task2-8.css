@@ -1,0 +1,86 @@
+.intro
+{
+width: 100%;
+height: 100vh;
+background-color: rgba(64, 59, 59, 0.921);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.welcome{
+width: fit-content;
+background-color: seagreen;
+color: aliceblue;
+border: 3px white double;
+animation-name: welcome;
+animation-iteration-count: infinite;
+animation-duration: 9s;
+animation-timing-function:ease-out ;
+animation-delay: 0s;
+opacity: 0;
+
+}
+
+.my-name{
+    width: fit-content;
+    background-color: darkcyan;
+    color: aliceblue;
+    border: 3px white double;
+    position: absolute;
+ 
+    animation-name: my-name;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-timing-function:ease-out ;
+    animation-delay: 3s;
+
+    opacity: 0;
+
+
+}
+.my-role
+{
+    width: fit-content;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border: 3px white double;
+ 
+    animation-name: my-role;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-timing-function:ease-out ;
+    animation-delay: 5s;
+
+    opacity: 0;
+}
+@keyframes welcome {
+     0%, 25%,100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(100px);
+        opacity: 1;
+    }
+}
+@keyframes my-name {
+    0%,25%, 100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(100px);
+        opacity: 1;
+    }
+}
+@keyframes my-role {
+     0%,25%, 100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(100px);
+        opacity: 1;
+    }
+}

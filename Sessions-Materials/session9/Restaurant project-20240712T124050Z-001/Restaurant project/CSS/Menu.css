@@ -1,0 +1,61 @@
+.chose{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2.5%;
+    
+}
+div{
+    text-align: center;
+    
+}
+
+.BURGERS, .DESSERTS, .DRINKS, .PASTA, .PIZZAS, .SALADS {
+    width: 55%;
+    margin: auto;
+    display: block;
+}
+
+.show {
+    width: calc(90%/4);
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    padding-top:5px ;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 13px;
+
+}
+
+.menu_img{
+    height: 120px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.menu_img:hover{
+    transform: scale(1.2);
+}
+
+h4{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+button{
+    margin-top: 19px;
+    color: #dce4e8;
+    border: none;
+    background-color: #121618;
+    cursor: pointer;
+}
+#BURGERS{
+    color: #ffa627;
+}
+button:focus{
+    color: #ffa627;
+}

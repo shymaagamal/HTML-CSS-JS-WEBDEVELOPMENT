@@ -1,0 +1,53 @@
+.contact{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 300px;
+}
+.contact_contain_img{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}   
+
+.contact_contain{
+    display: inline-block;
+    width: fit-content;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-bottom: 22px;
+}
+.contact_img{
+    display: inline-block;
+    width: 100%;
+    height: 98%;
+    vertical-align: top;
+}
+span[class="brach_title"]{
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+h5{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 9px;
+}
+hr{
+    width: 90%;
+    height: 0.5px;
+    background-color: #dce4e8;
+    border-color: #dce4e8;
+}
+
+/* to hid the lower img in footer */
+.contain{
+    display: none;
+}

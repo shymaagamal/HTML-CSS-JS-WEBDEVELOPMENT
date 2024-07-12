@@ -1,0 +1,41 @@
+.container{
+    background-color: aqua;
+    /* width: 80%; */
+    /* height: 200px; */
+    display: grid;
+
+    /* number of columns */
+    grid-template-columns: 100px 50px 100px;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns: repeat(5,15%); */
+
+    /* gap:5px 20px */
+
+    justify-content: end;
+
+    align-items: center;
+
+    grid-auto-rows:100px
+
+}
+
+.one{
+background-color: red;
+}
+.two{
+background-color: blue;
+
+}
+.three{
+background-color: grey;
+}
+.four{
+background-color: green;
+}
+.five{
+background-color: yellow;
+}
+.six{
+background-color: black;
+}

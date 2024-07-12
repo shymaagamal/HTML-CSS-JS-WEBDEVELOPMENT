@@ -1,0 +1,77 @@
+.img{
+    width: 100%;
+    height: 550px;
+    margin: 10px 0 30px 0;
+}
+.about_img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    display: block;
+    width:50%;
+    margin: auto;
+    text-align: center;
+}
+.brach{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.brach_content{
+    display: inline-block;
+    width: 47%;
+    text-align: center;
+    margin-right: 15px;
+    overflow: hidden;
+    
+}
+.brach_img_BROOKLYN, .brach_img_QUEENS{
+    width: 100%;
+    height: 250px;
+}
+.team{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.team_content, .team_content_1{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    line-height: 1px;
+
+}
+.team_content_1{
+    margin-left: 0;
+}
+span{
+    display: block;
+    font-weight: lighter;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    margin: 10px;
+    font-size: 25px;
+}
+span[class="brach_title"]{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 2px;
+}
+span[class="team_span"]{
+    margin-top: 30px;
+    text-align: center;
+}
+h5{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 18px;
+}

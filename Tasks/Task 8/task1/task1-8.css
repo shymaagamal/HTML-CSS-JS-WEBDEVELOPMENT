@@ -1,0 +1,51 @@
+.loading
+{
+    background-color: rgba(32, 31, 31, 0.908);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+.circle
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: darkorange;
+    animation-name: loading;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    opacity: 0;
+}
+.circle1 
+{
+
+    animation-delay: 0s; 
+    
+
+}
+.circle2
+{
+
+    animation-delay: 0.5s; 
+
+}
+.circle3
+{
+
+    animation-delay: 1s; 
+
+}
+@keyframes loading {
+    0%, 100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }   
+}

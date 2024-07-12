@@ -1,0 +1,74 @@
+.item{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-name: bg-change ;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-timing-function:ease-out ;
+    position: relative;
+}
+
+/* @keyframes bg-change {
+    from{
+        background-color: aqua;
+    }
+    
+    to{
+        background-color: red;
+    }
+} */
+@keyframes bg-change {
+0%{
+    background-color: red;
+    left: 0%;
+
+}
+25%{
+    background-color: blue;
+    left: 50%;
+ 
+}
+50%{
+    left: 100%;
+}
+75%{
+    left: 50%;
+
+}
+100%{
+    left: 0%;
+
+}
+}
+
+
+.container{
+    background-color: aqua;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    height: 70px;
+    overflow: hidden;
+}
+h1{
+    color:red;
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes move {
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+       transform: translateY(200%);
+    }
+    100%{
+       transform: translateY(0%);
+    }
+}

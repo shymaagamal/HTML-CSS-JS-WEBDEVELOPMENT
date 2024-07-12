@@ -1,0 +1,61 @@
+input{
+    background-color: aqua;
+    border:2px solid blue;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    background-color: blue;
+    border:navy;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    background-color: blue;
+    color: white;
+    border:none;
+}
+/* button:active{
+    color:blue;
+    background-color: white;
+} */
+button:focus{
+    color:blue;
+    background-color: white;
+}
+
+
+
+/* input:nth-of-type(1){
+ background-color: red;
+}
+input:nth-of-type(1):before{
+ content:"before";
+ color:red
+} */
+
+h1::before{
+    content:"before h1";
+    color:red;
+
+
+}
+
+
+.one{
+    background-color: red;
+    position: relative;
+    top:80px;
+    height:70px;
+    z-index: 1;
+}
+.two{
+    background-color: green;
+    position: relative;
+    top:45px;
+    height:70px
+}
+
+.two:hover{
+    z-index: 5;
+}
