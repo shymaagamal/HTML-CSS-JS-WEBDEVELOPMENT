@@ -1,0 +1,71 @@
+.book-table-container
+{
+    background-image: url(../assests/table.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+}
+.book-table-container::before {
+    content: "";
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.658); /* Adjust the opacity value to make it darker or lighter */
+}
+
+.inputs-booking-container
+{
+    /* background-color:rgba(0, 0, 0, 0.768); */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.input-booking {
+    padding: 20px;
+    width: 80%; 
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.978);
+
+    font-size: 16px; 
+    border-radius: 30% ;
+    border-color: white;
+    border-style: solid;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+.input-booking::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.title-book-table-container
+{
+    background-color:rgba(0, 0, 0, 0.768);
+    display: flex;
+    justify-content: center;
+}
+.title-book-table
+{
+    color: white;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit-button{
+    padding: 10px 20px;
+    height: 50px;
+    width: 40%;
+    background-color: rgba(184, 135, 11, 0.529); /* Change background color as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.submit-button:hover
+{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}

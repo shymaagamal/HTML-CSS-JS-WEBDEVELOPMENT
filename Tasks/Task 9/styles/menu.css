@@ -1,0 +1,33 @@
+.menu-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+}
+.title-menu-container
+{
+    background-color:rgba(0, 0, 0, 0.768);
+    display: flex;
+    justify-content: center;
+
+}
+.title-menu
+{    
+    color: white;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item {
+    /* Optional: Ensure images fill their containers */
+    width: 100%;
+}
+
+/* Example styling for individual items (adjust as needed) */
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
