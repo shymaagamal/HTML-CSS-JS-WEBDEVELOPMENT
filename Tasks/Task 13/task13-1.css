@@ -1,0 +1,51 @@
+.container
+{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px; /* Add some padding for the container */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+    text-align: center;
+}
+#product{
+    width: 95%;
+    height: 100%; /* Control the height of the image container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#product img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain; /* Fit image while maintaining aspect ratio */
+}
+.btn
+{
+    height: 10%;
+    align-self: center;
+
+    border-radius: 50%; /* Make buttons circular */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    font-size: 16px; /* Font size for the button text */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; 
+}
+.btn:hover {
+    background-color: #555; /* Darken button on hover */
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+
+.btn:active {
+    transform: scale(1.05); /* Slightly reduce scale on click */
+    background-color: #777; /* Further darken background on click */
+}
+
+.btn:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add custom focus outline */
+}

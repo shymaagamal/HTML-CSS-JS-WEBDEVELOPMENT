@@ -7,3 +7,4 @@ var i = 0, j = 0, k = 0;
 
 var x  = null
 typeof(x)
+console.log("hello shaimaa")
