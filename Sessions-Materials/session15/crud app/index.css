@@ -1,0 +1,17 @@
+input,textarea{
+    width: 95%;
+    height: 35px;
+}
+textarea{
+    height: 60px;
+}
+
+input:focus,textarea:focus{
+
+}
+button{
+    background-color: blue;
+    color:wheat;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

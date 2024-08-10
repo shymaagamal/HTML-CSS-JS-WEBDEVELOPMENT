@@ -1,0 +1,20 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.802);
+    height: 90vh;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    overflow: hidden;
+}
+.square{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(128, 128, 128, 0.377);
+    margin: 5px;
+    transition-duration: 2s;
+}
+.square:hover{
+    transition-duration: 0s;
+}
