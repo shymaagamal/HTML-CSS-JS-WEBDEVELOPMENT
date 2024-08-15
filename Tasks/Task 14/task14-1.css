@@ -31,20 +31,25 @@ body{
     text-align: center;
     align-items: center;
     box-shadow:10px 10px 20px rgba(0, 0, 0, 0.5) ;
-    height: 20vh;
+    height: 30vh;
     background-color: whitesmoke;
-
-    border: 3px double green;
+    border-radius: 20px;
+    border: 5px double green;
+    padding: 30px auto;
 
 }
-
+.quote{
+    font-size: x-large;
+}
 
 .author {
     color: black;
     font-weight: bold;
     font-style: italic;
+    font-size: xx-large;
     padding: 5px; 
     display: inline;
+    color: darkgreen;
 
 }
 button{

@@ -5,6 +5,7 @@ const btnGenerateQuote = document.querySelector("button");
 btnGenerateQuote.addEventListener("click", async function() {
     try {
         const quote = await getRandomQuote();
+    
         quoteDiv.innerHTML =`<p class="quote">"${quote.content}"</p><p class="author">— ${quote.author}</p>`
     } catch (error) {
         console.error("Error fetching quote:", error);
