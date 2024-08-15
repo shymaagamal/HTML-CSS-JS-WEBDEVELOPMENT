@@ -1,0 +1,59 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(./Assests/mansi-telharkar-4hnI1xdvxKo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+
+
+}
+.title
+{
+    background-color: green;
+    color: white;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 3px double black;
+    
+}
+.quote-container{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.5) ;
+    height: 20vh;
+    background-color: whitesmoke;
+
+    border: 3px double green;
+
+}
+
+
+.author {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px; 
+    display: inline;
+
+}
+button{
+    background-color: green;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 20%;
+    height: 30px;
+    position: absolute; /* Position relative to the closest positioned ancestor */
+    bottom: 10px; /* Space from the bottom edge of the container */
+    left: 47%; /* Center horizontally */
+}
